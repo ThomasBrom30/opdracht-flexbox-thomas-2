@@ -3,3 +3,65 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+.one {
+    display: flex;
+    justify-content:end ;
+    flex-direction: column;
+
+}
+
+.two {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+
+}
+
+#edhub1{
+   display: flex;
+    justify-content: flex-end;
+    margin-left: 900px;
+
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+}
+
+#edhub2{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    vertical-align: top;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+article {
+    display:inline-block;
+    max-width: 400px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    margin-left: 0px;
+    margin-right: 0px; float: left;
+}
+
+
+
